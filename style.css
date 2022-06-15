@@ -1,5 +1,4 @@
 /**************************************************** custom default */
-
 * {
   margin: 0;
   padding: 0;
@@ -12,5 +11,40 @@
 body {
   text-align: center;
   cursor: default;
-  background-color: #dcdcdc;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+/**************************************************** title card */
+.title-card-border {
+  border: solid 0.2rem #1e90ff;
+  border-radius: 3rem;
+  display: grid;
+  margin: 7rem 0.5rem;
+  padding-top: 1rem;
+}
+
+.image-container img {
+  width: 15rem;
+  height: 15rem;
+}
+
+/**************************************************** text-border */
+.text-border h1 {
+  font-size: 2rem;
+}
+
+.text-border p {
+  font-size: 1.5rem;
+}
+
+.text-border button {
+  background-color: #c0c0c0;
+  padding: 1rem 3rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  cursor: pointer;
 }

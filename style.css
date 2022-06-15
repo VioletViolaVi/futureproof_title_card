@@ -17,14 +17,17 @@ body {
 .title-card-border {
   border: solid 0.2rem #1e90ff;
   border-radius: 3rem;
-  margin: 7rem 0.5rem;
-  padding-top: 1rem;
+  margin: 7rem auto;
+  width: 19rem;
+  height: 29rem;
 }
 
-/**************************************************** image */
-.image-container img {
-  width: 15rem;
-  height: 15rem;
+@media (min-width: 600px) {
+  .title-card-border {
+    width: 35rem;
+    height: 27.5rem;
+    margin: 9rem auto;
+  }
 }
 
 @media (min-width: 900px) {
@@ -40,21 +43,54 @@ body {
     width: 55rem;
     height: 30.42rem;
   }
+}
 
+/**************************************************** image */
+.image-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.image-container img {
+  width: 18.6rem;
+  height: 15rem;
+  border-radius: 2.7rem 2.7rem 0 0;
+}
+
+@media (min-width: 600px) {
+  .image-container img {
+    width: 34.6rem;
+  }
+}
+
+@media (min-width: 900px) {
   .image-container img {
     width: 27rem;
     height: 30rem;
-    border-radius: 0 3rem 3rem 0;
+    border-radius: 0 2.7rem 2.7rem 0;
   }
 }
 
 /**************************************************** text */
+.text-border {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  margin-top: 2rem;
+}
+
 .text-border h1 {
   font-size: 2rem;
+  grid-column: 1 / 3;
 }
 
 .text-border p {
   font-size: 1.5rem;
+  grid-column: 1 / 3;
 }
 
 .text-border button {

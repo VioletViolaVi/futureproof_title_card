@@ -31,19 +31,20 @@ body {
   .title-card-border {
     display: flex;
     flex-direction: row-reverse;
-    padding: 0.5rem 0 0.5rem 1rem;
-    width: 55rem;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: flex-start;
+    padding: 0 0 0 1rem;
     margin: 7rem auto;
+    width: 55rem;
+    height: 30.42rem;
   }
 
   .image-container img {
     width: 27rem;
     height: 30rem;
-    margin-right: 1.5rem;
+    border-radius: 0 3rem 3rem 0;
   }
 }
 
@@ -83,7 +84,7 @@ body {
   }
 
   .text-border button {
-    margin: 1rem 0 0;
+    margin: 0.5rem 0 0;
     padding: 1.5rem 3.5rem;
   }
 }

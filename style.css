@@ -117,10 +117,11 @@ body {
 
   .text-border p {
     font-size: 2rem;
+    line-height: 1.5;
   }
 
   .text-border button {
-    margin: 0.5rem 0 0;
+    margin: 1rem 0 0;
     padding: 1.5rem 3.5rem;
   }
 }

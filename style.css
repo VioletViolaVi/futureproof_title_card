@@ -3,14 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Red Hat Display', sans-serif;
   list-style: none;
   color: #000;
 }
 
 body {
   cursor: default;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 /**************************************************** title card */

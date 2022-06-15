@@ -1,0 +1,16 @@
+/**************************************************** custom default */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  list-style: none;
+  color: #000;
+}
+
+body {
+  text-align: center;
+  cursor: default;
+  background-color: #dcdcdc;
+}
